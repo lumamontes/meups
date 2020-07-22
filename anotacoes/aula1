@@ -1,0 +1,21 @@
+internet
+duas partes -> hardware e software
+Arpanet
+Necessidade de fazer uma comunicação global
+TCP / IP - Comunidade que rege a comunicação na internet
+Ip
+A mensagem é criada na camada de Aplicação
+Após isso, camada de transporte
+TCP - responsável por entregar a mensagem para o destinatário
+
+Internet X Web
+Web trata somente de navegação entre páginas entre hipertexto
+
+WWW -> Word Wide Web
+HTTP + HTML + browser + primeiro servidor HTTP
+
+Página HTML  requisição http -> servidor http -> página html ->
+
+algoritmo -> sequencia de passoas a serem seguidos
+
+
