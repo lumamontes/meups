@@ -42,3 +42,15 @@ alt especifica um texto alternativo para a imagem
 <a> define um hiperlink, usado para vincular de uma página para outra
 
 
+<div>
+define uma divisão ou uma seção em um documento html
+<br> insere uma única quebra de linha, é util pra escrever endereços ou poemas
+
+
+CSS
+{}
+box-model
+margin
+border
+padding
+content

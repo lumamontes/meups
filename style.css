@@ -4,11 +4,39 @@
     box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #44C7A4;
+  --secondary-color: #0D2620;
+  --back-color: #dce2d9;
+  --terciary-color: #2D8570;
+  --detail-color: #213833;
+}
 h1 {
-    color: pink;
+    letter-spacing: 3px;
+    font-size: 39px;
+    color: var(--detail-color);
+}
+ h2 {
+    color: var(  --secondary-color);
+}
+img {
+    width: 500px
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--back-color);
+    
+}
+.textos {
+
+}
+.container {
+    display: flex;
 }
 
-body {
-    background-color: #000000ee;
-    color: #ffffffee;
+.container-texto {
+    margin-top: 20px;
+    border: 5px solid var(--primary-color);
+    padding: 10px;
+    width: 50%;
 }
