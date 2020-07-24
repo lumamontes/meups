@@ -8,6 +8,7 @@ h1 {
     font-size: 39px;
     color: #ffffff;
     border-bottom: 3px solid white;
+
 }
 
  span {
@@ -15,12 +16,9 @@ h1 {
 }
 
 p {
+
     color: white;
     line-height: 23px;
-}
-
-img {
-    width: 500px
 }
 
 body {
@@ -35,14 +33,15 @@ body {
 }
 
 .texto {
-    padding: 10%;
-    width: 40%;
+    padding: 100px 0 0 100px;
+    width: 360px;
+
 }
 
 div a {
     text-decoration: none;
     color: white;
-    padding: 10px 90px;
+    padding: 10px 75px;
     border-radius: 8px;
     background-color: #FF002E;
     border: 1px solid #ffffff;;
