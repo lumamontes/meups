@@ -25,16 +25,19 @@ img {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+    height: 100vh;
     background-image: url(img/12.png);
     background-size: cover;
-    background-position-y: -250px;
+    background-position-y: -250px;   
 }
 
-div {
-    margin: 10%;
-    width: 20%;
+.texto {
+    padding: 10%;
+    width: 40%;
 }
-
 
 div a {
     text-decoration: none;
@@ -55,4 +58,3 @@ a.credito {
     color: white;
     border-radius: 8px;
 }
-
