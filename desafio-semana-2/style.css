@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+    height: 100vh;
+    background-image: url(img/12.png);
+    background-size: cover;
+    background-position-y: -250px;   
+}
+
+header {
+    background-color: #1d1d1df6;
+    height: 9vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px
+}
+header ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;    
+
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.384);
+
+}
+ul li a:hover {
+    border-bottom: 3px solid #FF002E;
+}
+.fas {
+    color: white;
+    font-size: 50px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 39px;
+    color: #ffffff;
+    border-bottom: 3px solid white;
+
+}
+
+ span {
+    color: #FF002E;
+}
+
+.background p {
+    color: white;
+    line-height: 23px;
+}
+
+.text {
+    padding: 150px 0 0 100px;
+    width: 360px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 75px;
+    border-radius: 8px;
+    background-color: #FF002E;
+    border: 1px solid #ffffff;;
+}
+
+.btn:hover{
+    transition: 400ms;
+
+    opacity: 80%;
+}
+
+.credito {
+    opacity: 10%;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
