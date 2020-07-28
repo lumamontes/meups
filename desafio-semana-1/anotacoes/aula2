@@ -1,0 +1,56 @@
+aula 2 
+Dicas de sites para fotos
+Pexels
+Unsplahsed
+Pixarbay
+Freepik
+
+
+Pra escolher a paleta de cores:
+color.adobe
+
+HTML -> linguagem de Marcação de Texto
+W3C -> Principal organização de padronização da Web
+
+HTML -> É formado por Tags
+TAGS -> compostas por ELEMENTO atributo = valor
+        Ex.: <img src="img/imagem.jpg"/>
+
+Principais TAGS 
+html -> representa a raiz de um documento HTML. É o contêiner para todos os outros helementos HTML
+<head> é um contêiner para metadados (daods sobre o site)
+Metadados são dados sobre o Documento HTML
+Não são exibidos no site
+ex.:
+<title> (obrigatório)
+Define um título para o documento HTML
+<meta>
+<link>
+
+<body> -> corpo do ELEMENTO
+
+<h1> até <h6> Títulos
+<p> parágrafo
+
+<meta>
+<meta charset = UTF8>
+<meta viewport> 
+
+<img> é usada para incorporar uma imagem em uma página HTMLcria um espaço de espera para a imagem referenciada
+src especifica o caminho da imagem
+alt especifica um texto alternativo para a imagem
+<a> define um hiperlink, usado para vincular de uma página para outra
+
+
+<div>
+define uma divisão ou uma seção em um documento html
+<br> insere uma única quebra de linha, é util pra escrever endereços ou poemas
+
+
+CSS
+{}
+box-model
+margin
+border
+padding
+content
