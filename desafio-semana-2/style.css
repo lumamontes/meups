@@ -79,6 +79,39 @@ h1 {
     width: 360px;
 }
 
+#main-content {
+display: flex;
+flex-wrap: wrap-reverse;
+justify-content: center;
+padding: 3%;
+}
+
+#txt-container {
+    width: 350px;
+    margin: 0 auto;
+}
+.video-container {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#metas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#metas div {
+ width: 300px;    
+ padding: 30px;
+
+}
+
+#metas img {
+    width: 90px;
+}
 .btn {
     text-decoration: none;
     color: white;
