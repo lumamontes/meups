@@ -231,6 +231,10 @@ padding: 4% 1%;
     margin: 0 auto;
 }
 
+#sobre a {
+    color: black;
+}
+
 #sobre .txt-container {
     width: 45%;
     padding: 2%;
@@ -288,14 +292,14 @@ footer div p {
     font-weight: 200;
 }
 
-footer a {
+a {
     text-decoration: none;
     color: white;
     font-weight: 300;
     padding: 2px;
 }
 
-footer a:hover {
+ a:hover, #sobre a:hover {
     color: #ff5959;
     transition: 300ms;
 }
