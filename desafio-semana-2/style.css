@@ -160,6 +160,7 @@ padding: 2%;
 /* == Metas do projeto === */
 
 #metas {
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
