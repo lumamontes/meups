@@ -25,10 +25,9 @@ body {
 }
 
 p {
-    padding-top: 3px;
-
+    padding-top: 10px;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 25px;
     font-weight: 300;
 }
 
@@ -131,7 +130,6 @@ h1 {
 
 .background p {
     color: white;
-    text-shadow: 1px 1px 3px #0a0101 ;
     font-weight: 400;
     line-height: 23px;
 }
@@ -144,6 +142,7 @@ h1 {
 display: flex;
 flex-direction: row-reverse;
 flex-wrap: wrap-reverse;
+align-items: center;
 justify-content: center;
 padding: 2%;
 }
@@ -176,7 +175,7 @@ padding: 2%;
     text-align: center;
 }
 
-#metas div {
+#metas .meta {
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -184,11 +183,11 @@ align-items: center;
 max-width: 300px;    
 
 margin: 0 auto;
-    /* margin: 0 auto; */
-    /* width: 30%; */
- /* height: 500px; */
 padding: 4% 1%;
 }
+/* margin: 0 auto; */
+/* width: 30%; */
+/* height: 500px; */
 #metas div p {
     padding: 10px;
 }
@@ -235,7 +234,7 @@ padding: 4% 1%;
 }
 
 #sobre .txt-container {
-    width: 40%;
+    width: 45%;
     padding: 2%;
 }
 
@@ -245,6 +244,21 @@ padding: 4% 1%;
     
 }
 
+#sobre .icones {
+    display: flex;
+    font-size: 50px;
+}
+
+.icones a {   
+    color: black;
+
+    padding: 2%;
+}
+
+.icones a:hover {
+    color: #FF002E;
+
+}
 #sobre img {
     width: 100%;
     margin: 0 auto;
