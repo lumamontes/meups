@@ -1,0 +1,25 @@
+@media all and (max-width: 768px) {
+   header ul {
+       visibility: hidden; 
+   }
+
+   #projeto, #sobre,  #importancia, footer {
+       flex-direction: column-reverse;
+   }
+
+   section.background {
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        background-position: center;
+    }
+
+    .text, #projeto .txt-container, #sobre .txt-container, #projeto .video-container, #sobre .txt-container, #importancia div, footer div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+}
