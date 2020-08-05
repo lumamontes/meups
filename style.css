@@ -1,0 +1,384 @@
+/* css Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* css utilitários  -> classes que serão utilizadas durante todo o html*/
+
+/* section que envolve todas as caixas de conteúdo */
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.hidden {
+    visibility: hidden;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+}
+
+/* título */
+.titulo {
+        letter-spacing: 3px;
+        font-size: 30px;
+        color: #0a0101;
+        padding: 10px;    
+}
+
+p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+/* estilização de botão */
+.btn {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30%;
+    border-radius: 8px;
+    background-color: #FF002E;
+    border: 1px solid #ffffff;;
+    text-align: center;
+
+}
+
+.btn:hover{
+    transition: 400ms;
+
+    opacity: 80%;
+}
+
+/* texto alinhado no centro */
+.centralizado {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.cinza {
+    background-color: #f8f8f8;
+}
+
+/* --Barra de navegação fixa com l e logo-- */
+header {
+    background-color: #2e2e2e;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+/* tamanho logo */
+header img {
+    width: 50px;
+}
+
+/* espaçamento e alinhamento dos links */
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 500px
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;    
+}
+/* links */
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 19px 25px;
+}
+header ul li a:hover {
+    color: inherit;
+    background-color: rgba(255, 255, 255, 0.384);  
+    transition: 300ms;
+}
+
+/* --HOME-- */
+
+.background {
+    height: 100vh;
+    background-image: url(img/face6.jpeg);
+    background-position: 0px -100px;
+    background-size: cover;
+    background-repeat: no-repeat;     
+    position: relative;
+}
+/* - deixa a imagem do background um pouco mais escura */
+section.background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(75, 68, 68, 0.322);
+    box-shadow: inset 200px 350px 700px #00000050,inset -200px -350px 700px #00000060
+}
+
+.text {
+    z-index: 2;
+}
+/* home - texto */
+.text {
+    margin-top: 40px;
+    margin-right: auto;
+    padding: 10% 3%;
+    width: 350px;
+    text-align: justify;
+    z-index: 2;
+    position: relative;
+}
+h1 {
+    letter-spacing: 3px;
+    font-size: 39px;
+    color: #ffffff;
+    border-bottom: 3px solid white;
+}
+
+ span {
+    color: #FF002E;
+}
+
+.background p {
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* -- === Primeira seção sobre o projeto, texto + vídeo == */
+
+#projeto {
+display: flex;
+align-items: center;
+padding: 2%;
+}
+
+#projeto .txt-container {
+    width: 45%;
+    margin: 0 auto;
+}
+#projeto .video-container {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* == Metas do projeto === */
+
+#metas {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+}
+#metas h4{
+    text-align: center;
+}
+
+#metas .meta {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 300px;    
+
+margin: 0 auto;
+padding: 4% 1%;
+}
+/* margin: 0 auto; */
+/* width: 30%; */
+/* height: 500px; */
+#metas div p {
+    padding: 10px;
+}
+
+#metas img {
+    width: 90px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+#metas img:hover {
+    background-color: #ff5959;
+    border-radius: 50%;
+
+}
+/*== Realidade ==*/
+
+#importancia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+#importancia div {
+    margin: 0 auto;
+    width: 30%;
+    height: 500px;
+    padding: 4% 1%;
+}
+
+#importancia img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* == SOBRE == */
+
+#sobre {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#sobre a {
+    color: black;
+}
+
+#sobre .txt-container {
+    width: 45%;
+    padding: 2%;
+}
+
+#sobre .video-container {
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+#sobre .icones {
+    display: flex;
+    font-size: 50px;
+}
+
+.icones a {   
+    color: black;
+
+    padding: 2%;
+}
+
+.icones a:hover {
+    color: #FF002E;
+
+}
+#sobre img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/** Citações */
+
+#citacoes article {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    /* background-color: red; */
+}
+#citacoes div.align-left,
+#citacoes div.align-right {
+    width: 70%;
+    margin: 0 auto;
+    color: red;
+    font-size: 40px;
+}
+
+#citacoes div.paragrafo {
+    margin: 0 auto;
+    width: 60%;
+    font-weight: bold;
+    /* background-color: rebeccapurple; */
+}
+
+#citacoes p {
+    font-weight: 400;
+    font-style: italic;
+}
+#citacoes .txt {
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#citacoes imagem {
+    width: 40%;
+}
+#citacoes img {
+    width: 100%;
+}
+
+
+
+/* == footer == */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    padding: 2%;
+
+}
+footer div {
+    width: 30%;
+}
+footer div h1.titulo {
+    font-size: 20px;
+    color: white;
+}
+
+footer div p {
+    padding: 10px;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 2px;
+}
+
+ a:hover, #sobre a:hover {
+    color: #ff5959;
+    transition: 300ms;
+}
+
