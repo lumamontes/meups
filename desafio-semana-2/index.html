@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
     <title>Igualdade</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ac4c6e2b8b.js" crossorigin="anonymous"></script>
-   
+
     <link rel="shortcut icon" href="img/favicon.ico" />
 
     <link
@@ -21,12 +21,14 @@
     <!-- Barra de navegação fixa-->
     <header class="navbar">
         <img class="logo" src="/img/logo.png" alt="">
-        <nav class="menu">
+        <nav>
             <ul>
-                <li><a href="#projeto">Projeto</a></li>
-                <li> <a href="#metas">Metas</a></li>
-                <li> <a href="#importancia">Realidades</a></li>
-                <li> <a href="#sobre">Sobre</a></li>
+                <li class="hidden"> <a href="#menu"><i class="fas fa-align-right"></i></a>
+                <li class="visible"><a href="#projeto">Projeto</a></li>
+                <li class="visible"> <a href="#metas">Metas</a></li>
+                <li class="visible"> <a href="#importancia">Realidades</a></li>
+                <li class="visible"> <a href="#sobre">Sobre</a></li>
+                </li>
             </ul>
         </nav>
     </header>
@@ -47,7 +49,7 @@
     <!-- Projeto -->
     <section class="container">
         <section id="projeto">
- 
+
             <article class="video-container">
                 <iframe width="530" height="315" src="https://www.youtube.com/embed/iHIZXmW9oe4" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -78,7 +80,6 @@
         </section>
     </section>
 
-
     <!-- Metas -->
     <section class="container cinza">
         <h2 class="titulo centralizado">Visão</h2>
@@ -95,8 +96,8 @@
                     </h4>
                     <p>Realizar reformas para dar às mulheres direitos iguais aos recursos econômicos, bem como o
                         acesso e controle as propriedades e serviços financeiros</p>
-                
-                    </div>
+
+                </div>
             </article>
 
             <article class="meta">
@@ -170,6 +171,35 @@
 
         </section>
     </section>
+
+    <!--Citações-->
+    <section id="citacoes" class="container">
+            
+        <!-- <section id="citacoes"> -->
+        <article>
+            <div class="txt cinza">
+                <div class="align-left"> <i class="fas fa-quote-left"></i> </div>
+               
+                <div class="paragrafo">
+                   <p> sdkasjdksajdka Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit. Ducimus accusamus pariatur dolore, molestias suscipit eius obcaecati totam
+                       itaque mollitia error temporibus ipsum quae vitae libero iusto sint eos praesentium eaque. </p>
+                       <p class="centralizado"> - Angela Davis</p>
+                    
+                    </div>
+
+               <div class="align-right"> <i class="fas fa-quote-right"></i> </div>
+
+            </div>
+
+            <div class="imagem">
+                <img src="img/angeladavis3.jpg" alt="">            </div>
+
+        </article>
+
+        <!-- </section> -->
+    </section>
+
     <!-- Sobre -->
     <section class="container cinza">
         <section id="sobre">
