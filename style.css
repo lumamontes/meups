@@ -262,7 +262,7 @@ padding: 4% 1%;
 
 /* efeito de zoom quando passar o mouse por cima da imagem */
 #importancia img:hover {
-    transform: scale(1.02);
+    transform: scale(1.022);
 
 }
 /* == SOBRE == */
