@@ -16,8 +16,19 @@
     }
 
 
-   #projeto, #sobre,  #importancia, footer {
+   #projeto, #sobre,  #importancia {
        flex-direction: column-reverse;
+   }
+
+   footer {
+       flex-direction: column;
+   }
+
+   footer h4 {
+       text-align: center;
+   }
+   footer ul {
+       /* display: flex; */
    }
 
    section.background, #citacoes article {
@@ -32,6 +43,14 @@
     .text, #projeto .txt-container, #sobre .txt-container, #projeto .video-container, #sobre .txt-container, #importancia div, footer div, #citacoes article div.txt, #citacoes .imagem {
     width: 90%;
     margin: 0 auto;
+}
+
+.modal {
+    width: 90%;
+}
+
+#citacoes article div.txt {
+    width: 100%;
 }
 
 }
