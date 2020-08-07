@@ -16,11 +16,11 @@
     }
 
 
-   #projeto, #sobre,  #importancia {
+   #projeto,  #importancia {
        flex-direction: column-reverse;
    }
 
-   footer {
+   footer, #sobre {
        flex-direction: column;
    }
 
